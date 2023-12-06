@@ -23,6 +23,15 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "ordermax",
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "O aplicativo $(PRODUCT_NAME) gostaria de acessar a câmera"
+        }
+      ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
